@@ -25,7 +25,8 @@ btn[2].addEventListener("click",()=> {
 })
 
 btn[1].addEventListener("click", ()=> {
-    changeCount.innerText = '';
+    current = 0;
+    changeCount.innerText = '0';
     updateDisplay()
 })  
 
